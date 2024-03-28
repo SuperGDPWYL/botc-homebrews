@@ -1,0 +1,291 @@
+[
+    {
+        "id": "_meta",
+        "name": "Minutes to Midnight v2",
+        "author": "SuperGDPWYL",
+        "isOfficial": false
+    },
+    {
+        "id": "scholar",
+        "name": "Scholar",
+        "team": "townsfolk",
+        "ability": "You start knowing which Minions & Demon are in play.",
+        "firstNight": 42.5,
+        "firstNightReminder": "Show the Scholar the in-play Minions and Demon.",
+        "image": "https://www.bloodstar.xyz/p/piglix/Full_Unreleased_Characters/scholar_full_unreleased_characters.png"
+    },
+    {
+        "id": "investigator"
+    },
+    {
+        "id": "clockmaker"
+    },
+    {
+        "id": "fencer_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/vRlz3bx.png",
+            "https://i.imgur.com/jkHVASD.png"
+        ],
+        "firstNightReminder": "The Demon chooses a player tonight, unlike normal: mark that player with \"Dies in 1 night\". Wake the Fencer. Show them the player marked with the \"Dies in 1 night\" reminder. Replace that reminder at the end of today; that player dies when the Demon chooses.",
+        "otherNightReminder": "Do not kill the player the Demon chooses; instead, mark them with \"Dies in 1 night\". Wake the Fencer. Show them the player marked with the \"Dies in 1 night\" reminder.  Replace that reminder at the end of today; that player dies when the Demon chooses.",
+        "reminders": [
+            "Dies in 1 night"
+        ],
+        "name": "Fencer",
+        "team": "townsfolk",
+        "ability": "The Demon attacks on the 1st night, but its’ victims die 1 night later. Each night, you learn who the Demon chose.",
+        "firstNight": 35.5,
+        "otherNight": 52.3,
+        "jinxes": [
+            {
+                "id": "pukka",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "leviathan",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "riot",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "alhadikhia",
+                "reason": "Al-Hadikhia's choices are announced 1 night later."
+            }
+        ]
+    },
+    {
+        "id": "biologist",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/biologist_uk.png",
+        "name": "Biologist",
+        "team": "townsfolk",
+        "ability": "Each night, choose 2 players: learn 1 of their characters. If either are drunk or poisoned, learn false info.",
+        "firstNight": 45.2,
+        "firstNightReminder": "The Biologist chooses 2 players.",
+        "otherNight": 62.2,
+        "otherNightReminder": "The Biologist chooses 2 players."
+    },
+    {
+        "id": "mathematician"
+    },
+    {
+        "id": "spicetrader_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/ngW9GvG.png",
+            "https://i.imgur.com/JNsFbbf.png"
+        ],
+        "otherNightReminder": "Count the number of \"Voted\" reminders placed. Show the Spice Trader that number. If you would show them 0, the Spice Trader becomes drunk.",
+        "reminders": [
+            "Voted",
+            "Voted",
+            "Voted",
+            "Voted",
+            "Drunk"
+        ],
+        "name": "Spice Trader",
+        "team": "townsfolk",
+        "ability": "Each night*, learn how many evil players voted today. If you would learn a 0, you become drunk.",
+        "otherNight": 62.6,
+        "jinxes": [
+            {
+                "id": "organgrinder",
+                "reason": "f players eyes were closed during nominations, the Spice Trader learns which player received the most evil votes & how many they received."
+            },
+            {
+                "id": "riot",
+                "reason": "Players who nominate & kill someone register as voting to the Spice Trader."
+            }
+        ]
+    },
+    {
+        "id": "fisherman"
+    },
+    {
+        "id": "physicist",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/physicist_uk.png",
+        "name": "Physicist",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, learn how many Minions live & an alive Minion character if 1 lives.",
+        "otherNight": 70.1,
+        "reminders": ["No Ability"],
+        "otherNightReminder": "The Physicist might learn information."
+    },
+    {
+        "id": "seamstress"
+    },
+    {
+        "id": "grandmaster_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/N0NWNAx.png",
+            "https://i.imgur.com/TmhGdTt.png"
+        ],
+        "reminders": [
+            "No Ability"
+        ],
+        "name": "Grandmaster",
+        "team": "townsfolk",
+        "ability": "Once per game, visit the Storyteller to privately learn who your most important ally is, but not why they're important."
+    },
+    {
+        "id": "psychologist",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/psychologist_uk.png",
+        "name": "Psychologist",
+        "team": "townsfolk",
+        "ability": "1 evil player thinks they're good & doesn't partake in evil info. If you die, they learn the truth & their team.",
+        "reminders": ["Illusioned", "Truth Tonight"],
+        "firstNight": 9.1,
+        "firstNightReminder": "The *Illusioned* evil player thinks they're good & doesn't partake in evil info.",
+        "otherNight": 8.1,
+        "otherNightReminder": "If the Psychologist died today, the *Illusioned* player learns the truth & their team."
+    },
+    {
+        "id": "chemist",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/chemist_uk.png",
+        "name": "Chemist",
+        "team": "townsfolk",
+        "ability": "You have a fusion of 2 in-play characters' abilities. Each day. privately guess which characters: if right, learn your ability.",
+        "reminders": ["Synthesised", "Synthesised", "???", "???", "???"],
+        "firstNight": 1.6,
+        "firstNightReminder": "Mark 2 players with the *Synthesised* reminders and then decide on the Chemist's ability based on which characters are marked. If appropriate, run the ability tonight.",
+        "otherNight": 57.1,
+        "otherNightReminder": ""
+    },
+
+    {
+        "id": "occultist_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/VNeRfiO.png",
+            "https://i.imgur.com/zOCXqJF.png"
+        ],
+        "reminders": [
+            "Interest Lost",
+            "Given "
+        ],
+        "name": "Occultist",
+        "team": "outsider",
+        "ability": "You might be executed unless you are mad about learning something new every day. Once per game, when you visit the Storyteller, you learn a fact."
+    },
+    {
+        "id": "sleepwalker_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/ETrkLpZ.png",
+            "https://i.imgur.com/DNZxntj.png"
+        ],
+        "firstNightReminder": "Wake the Sleepwalker, and act as though they had the ability they think they do: secretly run the ability they actually have. Wake 1 Good player, and show them the Sleepwalker token.",
+        "remindersGlobal": [
+            "Is the Sleepwalker",
+            "Knows",
+            "???",
+            "???",
+            "???",
+            "???",
+            "???"
+        ],
+        "setup": true,
+        "name": "Sleepwalker",
+        "team": "outsider",
+        "ability": "You think you’re a Townsfolk, but you have a different ability with the same choices. 1 good player knows you’re in play.",
+        "firstNight": 39.3,
+        "special": [
+            {
+                "name": "bag-disabled",
+                "type": "selection"
+            },
+            {
+                "name": "replace-character",
+                "type": "reveal"
+            }
+        ]
+    },
+    {
+        "id": "puzzlemaster"
+    },
+    {
+        "id": "damsel"
+    },
+    {
+        "id": "recluse"
+    },
+
+    {
+        "id": "manipulator_final_masquerade",
+        "image": ["https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/manipulator_final_masquerade.png","https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/manipulatorgood_final_masquerade.png"],
+        "firstNightReminder":"The Manipulator chooses a player: they are poisoned. The Manipulator has their ability.",
+        "otherNightReminder":"If the poisoned player died today or tonight: The Manipulator chooses a player: they are poisoned. The Manipulator has their ability.",
+        "reminders":["Poisoned"],
+        "name":"Manipulator",
+        "team":"minion",
+        "ability":"On your 1st night, choose a player: you learn & have their ability & they are poisoned. If they die, choose again.",
+        "firstNight":21,
+        "otherNight":8,
+        "jinxes": [
+            {
+                "id": "damsel",
+                "reason":"If the Manipulator dies while poisoning the Damsel, the Damsel remains poisoned."
+            }
+        ]
+    },
+    {
+        "id": "poisoner"
+    },
+    {
+        "id": "witch"
+    },
+    {
+        "id": "cryptid_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/yOi8eUu.png",
+            "https://i.imgur.com/ECYJMwz.png"
+        ],
+        "firstNightReminder": "Show the Cryptid part of their ability. Show the good player marked as \"Knows\" the other part of the ability. If appropriate, run the custom ability.",
+        "otherNightReminder": "Run the custom ability of the Cryptid.",
+        "reminders": [
+            "???",
+            "Knows"
+        ],
+        "name": "Cryptid",
+        "team": "minion",
+        "ability": "You only know part of your ability. 1 good player knows the rest of it.",
+        "firstNight": 18.5,
+        "otherNight": 17.5
+    },
+    {
+        "id":"graverobber1_final_masquerade",
+        "image":["https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/graverobber1_final_masquerade.png","https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/graverobbergood_final_masquerade.png"],
+        "otherNightReminder":"If a player was executed yesterday, the Graverobber learns their character & gains that player's ability.",
+        "reminders":["Graverobbed","Graverobbed","Graverobbed","Graverobbed","Graverobbed","Graverobbed","Graverobbed","Graverobbed","Graverobbed"],
+        "name":"Graverobber",
+        "team":"minion",
+        "ability":"You learn the character & gain the ability of executees.",
+        "otherNight":4
+    },
+
+    {
+        "id": "doomsdayclock",
+        "name": "Doomsday Clock",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/doomsdayclock_uk.png",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If no Minions live, good learns it is Midnight & must kill you today or lose. Good Minions don't partake in evil info. [+1 good Minion]",
+        "setup": true,
+        "otherNight": 44.1,
+        "otherNightReminder": "The Doomsday Clock chooses a player: they die. :reminder: If no Minions live, mark the Doomsday Clock with *Midnight*. :reminder: Tomorrow, all players learn this & will have 1 day to execute the Doomsday Clock.",
+        "reminders": ["Dead", "Midnight"],
+        "jinxes": [
+            {
+                "id": "damsel",
+                "reason": "If a good Minion makes a Damsel guess, it won't count."
+            }
+        ]
+    },
+    {
+        "id": "bioweapon",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/bioweapon_uk.png",
+        "name": "Bio-Weapon",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Evils & poisoned players who nominate poison good nominees. If all alive players (not yourself) are poisoned, good learns it is Midnight & must kill you today or lose.",
+        "otherNight": 44.2,
+        "otherNightReminder": "The Bio-Weapon chooses a player: they die. :reminder: If all alive players except the Bio-Weapon are poisoned, mark the Bio-Weapon with *Midnight*. :reminder: Tomorrow, all players learn this & will have 1 day to execute the Bio-Weapon.",
+        "reminders": ["Dead", "Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned", "Midnight"]
+    }
+]

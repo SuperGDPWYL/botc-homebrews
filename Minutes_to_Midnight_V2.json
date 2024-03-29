@@ -234,7 +234,7 @@
         "reminders": ["Poisoned"],
         "name": "Malpractitioner",
         "team": "minion",
-        "ability": "Each night, choose 3 players: 1 is poisoned. If you added an Outsider, choose 1 instead. [-1 or +1 Outsider]",
+        "ability": "Each night, choose 3 players: 1 is poisoned until dusk. If you added an Outsider, choose 1 instead. [-1 or +1 Outsider]",
         "setup": true,
         "firstNight": 23.1,
         "otherNight": 12.1

@@ -227,7 +227,17 @@
         ]
     },
     {
-        "id": "poisoner"
+        "id": "malpractitioner",
+        "image": ["https://www.bloodstar.xyz/p/SuperGDPWYL/uk/malpractitioner_uk.png","https://www.bloodstar.xyz/p/SuperGDPWYL/uk/malpractitionerg_uk.png"],
+        "firstNightReminder": "The Malpractitioner chooses 3 (-1)/1 (+1) player: 1 is poisoned. :reminder:",
+        "otherNightReminder": "The Malpractitioner chooses 3 (-1)/1 (+1) player: 1 is poisoned. :reminder:",
+        "reminders": ["Poisoned"],
+        "name": "Malpractitioner",
+        "team": "minion",
+        "ability": "Each night, choose 3 players: 1 is poisoned. If you added an Outsider, choose 1 instead. [-1 or +1 Outsider]",
+        "setup": true,
+        "firstNight": 23.1,
+        "otherNight": 12.1
     },
     {
         "id": "witch"
@@ -283,7 +293,7 @@
         "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/bioweapon_uk.png",
         "name": "Bio-Weapon",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Evils & poisoned players who nominate poison good nominees. If all alive players (not yourself) are poisoned, good learns it is Midnight & must kill you today or lose.",
+        "ability": "Each night*, choose a player: they die. Evils & poisoned players who nominate poison good nominees. If all alive good players are poisoned, good learns it is Midnight & must kill you today or lose.",
         "otherNight": 44.2,
         "otherNightReminder": "The Bio-Weapon chooses a player: they die. :reminder: If all alive players except the Bio-Weapon are poisoned, mark the Bio-Weapon with *Midnight*. :reminder: Tomorrow, all players learn this & will have 1 day to execute the Bio-Weapon.",
         "reminders": ["Dead", "Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned", "Midnight"]

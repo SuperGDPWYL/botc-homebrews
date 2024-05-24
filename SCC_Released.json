@@ -9,7 +9,7 @@
         "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/chemist_scc_released.png",
         "name": "Chemist",
         "team": "townsfolk",
-        "ability": "You have a fusion of 2 in-play characters' abilities. Each day. privately guess which characters: if right, learn your ability.",
+        "ability": "You have a fusion of 2 in-play characters' abilities. Each day. privately guess which: if right, learn your ability.",
         "reminders": ["Synthesised", "Synthesised", "???", "???", "???"],
         "firstNight": 1.6,
         "firstNightReminder": "Mark 2 players with the *SYNTHESISED* reminders and then decide on the Chemist's ability based on which characters are marked. If appropriate, run the ability tonight.",

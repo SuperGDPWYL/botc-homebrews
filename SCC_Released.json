@@ -1,0 +1,69 @@
+[{
+        "id": "_meta",
+        "author": "SuperGDPWYL",
+        "name": "Super's Character Collection [¬]",
+        "almanac": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/almanac.html"
+},
+{
+        "id": "chemist",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/chemist_scc_released.png",
+        "name": "Chemist",
+        "team": "townsfolk",
+        "ability": "You have a fusion of 2 in-play characters' abilities. Each day. privately guess which characters: if right, learn your ability.",
+        "reminders": ["Synthesised", "Synthesised", "???", "???", "???"],
+        "firstNight": 1.6,
+        "firstNightReminder": "Mark 2 players with the *SYNTHESISED* reminders and then decide on the Chemist's ability based on which characters are marked. If appropriate, run the ability tonight.",
+        "otherNight": 57.1,
+        "otherNightReminder": ""
+},
+{
+        "id": "conspiracist",
+        "name": "Conspiracist",
+        "team": "outsider",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/conspiracist_scc_released.png",
+        "ability": "1 Townsfolk receives reversed info & it moves to a Townsfolk neighbour each night, even if you die. Each night, learn which direction.",
+        "reminders": ["Reversed Info"],
+        "firstNightReminder": "The *REVERSED INFO* :reminder: moves to 1 of the current holder's Townsfolk neighbours. *If the Conspiracist is alive*, wake them & show which direction.",
+        "otherNightReminder": "The *REVERSED INFO* :reminder: moves to 1 of the current holder's Townsfolk neighbours. *If the Conspiracist is alive*, wake them & show which direction.",
+        "firstNight": 64.1,
+        "otherNight": 83.1
+},
+{
+    "id": "veraxillus",
+    "name": "Veraxillus",
+    "team": "demon",
+    "image": ["https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/veraxillus_final_masquerade.png","https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/veraxillusgood_final_masquerade.png"],
+    "ability": "Each night*, choose a player: they die. You might have the abilities of characters you're mad you are: if so, learn this.",
+    "reminders": ["Dead"],
+    "otherNight": 38.1,
+    "otherNightReminder": "The Veraxillus chooses a player, who *dies*. The Veraxillus might have another ability on top of this; if so, run it at the appropriate time."
+},
+{
+        "id": "absolut",
+        "name": "Absolut",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/absolut_scc_released.png",
+        "team": "demon",
+        "ability": "Townsfolk abilities yield false info except 1. Each evil may (once) publicly guess who: if right, or after day 5, evil wins.",
+        "reminders": ["Thought Criminal", "Spent", "Spent", "Spent", "Spent"],
+        "jinxes": [
+            {
+                "id": "miasma_the_bootleggers_anthology",
+                "reason": "If Absolut is in play, the Miasma reverses information instead of making it false."
+            },
+            {
+                "id": "widow",
+                "reason": "If Absolut is in play, all reminder tokens are removed when the Widow sees the Grimoire."
+            }
+        ],
+        "firstNight": 1,
+        "firstNightReminder": "Mark 1 Townsfolk as the *THOUGHT CRIMINAL*. :reminder: All other Townsfolk yield false info."
+},
+{
+        "id": "hysteria",
+        "name": "Hysteria",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/hysteria_supers_hb.png",
+        "team": "demon",
+        "ability": "On day 3, the living may duel (all learns this): both learn a question & whoever fails to answer it correctly 1st dies. After day 3, evil wins.",
+        "otherNight": 90,
+        "otherNightReminder": "If it is dawn on day 3, announce that *Hysteria has broken out!*"
+}]

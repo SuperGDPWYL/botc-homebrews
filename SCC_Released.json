@@ -17,6 +17,21 @@
         "otherNightReminder": ""
 },
 {
+        "id": "insurrectionist",
+        "team": "townsfolk",
+        "name": "Insurrectionist",
+        "ability": "Once per game, choose a player: if good, they become & learn your character. If evil guesses you (once), your team loses.",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/insurrectionist_scc_released.png",
+        "reminders": [
+            "Guess Used",
+            "No Ability"
+        ],
+        "firstNight": 34.1,
+        "otherNight": 21.2,
+        "firstNightReminder": "The Insurrectionist might choose a player. That player, if good, becomes an Insurrectionist & learns who recruited them. The recruiter loses their ability. :reminder:",
+        "otherNightReminder": "The Insurrectionist might choose a player. That player, if good, becomes an Insurrectionist & learns who recruited them. The recruiter loses their ability. :reminder:"
+    },
+{
         "id": "conspiracist",
         "name": "Conspiracist",
         "team": "outsider",

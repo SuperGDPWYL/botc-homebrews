@@ -47,12 +47,56 @@
     "id": "veraxillus",
     "name": "Veraxillus",
     "team": "demon",
-    "image": ["https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/veraxillus_final_masquerade.png","https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/veraxillusgood_final_masquerade.png"],
+    "image": ["https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/veraxillus_scc_released.png","https:\/\/www.bloodstar.xyz\/p\/SuperGDPWYL\/Final_Masquerade\/veraxillusgood_final_masquerade.png"],
     "ability": "Each night*, choose a player: they die. You might have the abilities of characters you're mad you are: if so, learn this.",
     "reminders": ["Dead"],
     "otherNight": 38.1,
     "otherNightReminder": "The Veraxillus chooses a player, who *dies*. The Veraxillus might have another ability on top of this; if so, run it at the appropriate time."
 },
+{
+    "id": "fluxicon",
+    "team": "demon",
+    "name": "Fluxicon",
+    "ability": "Each night*, choose up to the number of alive evils: that many players die tonight.",
+    "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/fluxicon_scc_released.png",
+    "reminders": [
+        "Dead",
+        "Dead",
+        "Dead",
+        "Dead"
+    ],
+    "otherNight": 34.1,
+    "otherNightReminder": "The Fluxicon signals a number up to the amount of evil players alive. That many players *die*. :reminder:"
+},
+{
+    "id": "muras",
+    "team": "demon",
+    "name": "Muras",
+    "ability": "Each night, choose 3 players: if any nominate tomorrow, they die that night. If none do, all die.",
+    "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/muras_scc_released.png",
+    "reminders": ["Dead","Dead","Dead","Bleeding","Bleeding","Bleeding","Nominated","Nominated","Nominated"],
+    "firstNight": 38.1,
+    "otherNight": 38.2,
+    "firstNightReminder": "The Muras chooses 3 players. :reminder: :reminder: :reminder:",
+    "otherNightReminder": "Players marked *NOMINATED* die. :reminder: If no-one is, players marked *BLEEDING* die. :reminder: The Muras chooses 3 players. :reminder:"
+},
+{
+    "id": "cataclysm",
+    "team": "demon",
+    "name": "Cataclysm",
+    "ability": "Each night*, choose a player: they die. For each failed nomination by good today, or if none nominated, choose 1 more.",
+    "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/cataclysm_scc_released.png",
+    "reminders": [
+        "Dead",
+        "Dead",
+        "Dead",
+        "Dead",
+        "Dead",
+        "No Good Nominated"
+    ],
+    "otherNight": 34.2,
+    "otherNightReminder": "The Cataclysm chooses 1 player, plus another for each failed nomination by good today. If the Cataclysm is marked *NO GOOD NOMINATED*, they choose 2. They *die*. :reminder:"
+}
 {
         "id": "absolut",
         "name": "Absolut",

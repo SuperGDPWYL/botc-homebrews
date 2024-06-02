@@ -1,0 +1,378 @@
+[
+    {
+        "id": "_meta",
+        "name": "Sunset of Bloodshed",
+        "author": "SuperGDPWYL, including characters by Elluna, Temporary & Luis S"
+    },
+    "washerwoman",
+    {
+        "id": "cobbler_chaostheory",
+        "image": "https://www.bloodstar.xyz/p/notnothingmuch/ChaosTheory/cobbler_chaostheory.png",
+        "firstNightReminder": "Show the Cobbler 1 in-play good character token & 1 in-play evil character token, or 1 not-in-play good character token & 1 not-in-play evil character token.",
+        "name": "Cobbler ✦",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 good & 1 evil character: they are either both in-play or not at all.",
+        "firstNight": 50.1
+    },
+    {
+        "id": "falconer_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/gNTPGNZ.png",
+            "https://i.imgur.com/qk4T2LO.png"
+        ],
+        "firstNightReminder": "The Falconer points to a character on their characteer sheet: mark a player with that character with the \"Chosen\" reminder if the character is in play, or mark the Falconer with \"Not in play\" if it isn't. Send the Falconer back to sleep.",
+        "otherNightReminder": "Increment the Falconer's number by 1. You may choose to wake the Falconer (if it's 4, you must): show them which player has the character they chose. Remove all Falconer reminders. Then, the Falconer points to a character on their characteer sheet: mark a player with that character with the \"Chosen\" reminder if the character is in play, or mark the Falconer with \"Not in play\" if it isn't. Send the Falconer back to sleep. ",
+        "reminders": [
+            "Chosen",
+            "Not In Play",
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "name": "Falconer §",
+        "team": "townsfolk",
+        "ability": "On your 1st night, choose a character. 1-4 nights later, learn who that character is (or that it's not in play, then choose another.",
+        "firstNight": 39.4,
+        "otherNight": 62.4
+    },
+    "general",
+    {
+        "id": "spicetrader_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/ngW9GvG.png",
+            "https://i.imgur.com/JNsFbbf.png"
+        ],
+        "otherNightReminder": "Count the number of \"Voted\" reminders placed. Show the Spice Trader that number. If you would show them 0, the Spice Trader becomes drunk.",
+        "reminders": [
+            "Voted",
+            "Voted",
+            "Voted",
+            "Voted",
+            "Drunk"
+        ],
+        "name": "Spice Trader §",
+        "team": "townsfolk",
+        "ability": "Each night*, learn how many evil players voted today. If you would learn a 0, you become drunk.",
+        "otherNight": 62.6,
+        "jinxes": [
+            {
+                "id": "organgrinder",
+                "reason": "f players eyes were closed during nominations, the Spice Trader learns which player received the most evil votes & how many they received."
+            },
+            {
+                "id": "riot",
+                "reason": "Players who nominate & kill someone register as voting to the Spice Trader."
+            }
+        ]
+    },
+    {
+        "id": "beachcomber_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/948kFtR.png",
+            "https://i.imgur.com/fAPvKuN.png"
+        ],
+        "name": "Beachcomber §",
+        "team": "townsfolk",
+        "ability": "Each day, visit the Storyteller to learn a fact no other on-script Townsfolk could learn with their ability.",
+        "jinxes": [
+            {
+                "id": "savant",
+                "reason": "The Beachcomber can learn information the Savant can learn."
+            },
+            {
+                "id": "artist",
+                "reason": "The Beachcomber can learn information the Artist can learn."
+            },
+            {
+                "id": "amnesiac",
+                "reason": "The Beachcomber can learn information the Amnesiac can learn. If the Amnesiac is in play, the Beachcomber can not learn what they can with their current ability."
+            }
+        ]
+    },
+    "artist",
+    "seamstress",
+    "philosopher",
+    {
+        "id": "musician_temporary_homebrew",
+        "image": [
+          "https://i.ibb.co/pv0kqRR/Musician.png",
+          "https://i.ibb.co/D9NK9zh/Musician-2.png"
+        ],
+        "reminders": [
+          "No Ability"
+        ],
+        "name": "Musician ╣",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, visit the Storyteller & name a goal: you learn how close your team is to completing it. "
+      }, 
+    {
+        "id": "chemist",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/chemist_scc_released.png",
+        "name": "Chemist ¬",
+        "team": "townsfolk",
+        "ability": "You have a fusion of 2 in-play characters' abilities. Each day. privately guess which: if right, learn your ability.",
+        "reminders": ["Synthesised", "Synthesised", "???", "???", "???"],
+        "firstNight": 1.6,
+        "firstNightReminder": "Mark 2 players with the *SYNTHESISED* reminders and then decide on the Chemist's ability based on which characters are marked. If appropriate, run the ability tonight.",
+        "otherNight": 57.1,
+        "otherNightReminder": ""
+    },
+    {
+        "id": "firebrand_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/ipZwQ7e.png",
+            "https://i.imgur.com/XebcWFm.png"
+        ],
+        "otherNightReminder": "If the Firebrand's \"Incited\" reminder is placed, wake them. They choose a player: show them that player's character. Send the Firebrand to sleep. Place the \"No ability\" reminder by the Firebrand.",
+        "reminders": [
+            "Incited",
+            "No ability"
+        ],
+        "name": "Firebrand §",
+        "team": "townsfolk",
+        "ability": "If you nominate & execute the 1st person executed, that night (even if dead), choose a player: learn their character.",
+        "otherNight": 62.2,
+        "jinxes": [
+            {
+                "id": "riot",
+                "reason": "If the Firebrand makes the first nomination in a day and survives (once), they use their ability tonight."
+            }
+        ]
+    },
+    "cannibal",
+
+    {
+        "id": "occultist_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/VNeRfiO.png",
+            "https://i.imgur.com/zOCXqJF.png"
+        ],
+        "reminders": [
+            "Interest Lost",
+            "Given "
+        ],
+        "name": "Occultist §",
+        "team": "outsider",
+        "ability": "You might be executed unless you are mad about learning something new every day. Once per game, when you visit the Storyteller, you learn a fact."
+    },
+    "drunk",
+    "mutant",
+    {
+        "id": "conspiracist",
+        "name": "Conspiracist ¬",
+        "team": "outsider",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/conspiracist_scc_released.png",
+        "ability": "1 Townsfolk receives reversed info & it moves to a Townsfolk neighbour each night, even if you die. Each night, learn which direction.",
+        "reminders": ["Reversed Info"],
+        "firstNightReminder": "The *REVERSED INFO* :reminder: moves to 1 of the current holder's Townsfolk neighbours. *If the Conspiracist is alive*, wake them & show which direction.",
+        "otherNightReminder": "The *REVERSED INFO* :reminder: moves to 1 of the current holder's Townsfolk neighbours. *If the Conspiracist is alive*, wake them & show which direction.",
+        "firstNight": 64.1,
+        "otherNight": 83.1
+    },
+    "politician",
+
+    {
+        "id": "cryptid_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/yOi8eUu.png",
+            "https://i.imgur.com/ECYJMwz.png"
+        ],
+        "firstNightReminder": "Show the Cryptid part of their ability. Show the good player marked as \"Knows\" the other part of the ability. If appropriate, run the custom ability.",
+        "otherNightReminder": "Run the custom ability of the Cryptid.",
+        "reminders": [
+            "???",
+            "Knows"
+        ],
+        "name": "Cryptid §",
+        "team": "minion",
+        "ability": "You only know part of your ability. 1 good player knows the rest of it.",
+        "firstNight": 18.5,
+        "otherNight": 17.5
+    },
+    "widow",
+    "cerenovus",
+    {
+        "id": "miasma_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/h5xqMu3.png",
+            "https://i.imgur.com/oktp5wn.png"
+        ],
+        "firstNightReminder": "Each night, wake the Miasma. They either shake their head no or nod yes. If they shake their head, put the Miasma to sleep. If they nod, place the “Shrouded” reminder in the Grimoire, and mark the Miasma with “No ability”. While the “Shrouded” reminder is placed, all Townsfolk are poisoned, and additionally must receive reversed information if they get any information.",
+        "otherNightReminder": "Each night, wake the Miasma. They either shake their head no or nod yes. If they shake their head, put the Miasma to sleep. If they nod, place the “Shrouded” reminder in the Grimoire, and mark the Miasma with “No ability”. While the “Shrouded” reminder is placed, all Townsfolk are poisoned, and additionally must receive reversed information if they get any information.",
+        "reminders": [
+            "Shrouded",
+            "No ability"
+        ],
+        "name": "Miasma §",
+        "team": "minion",
+        "ability": "Once per game, at night, choose that all Townsfolk are poisoned & get false information until dusk.",
+        "firstNight": 22.5,
+        "otherNight": 12.5,
+        "jinxes": [
+            {
+                "id": "alchemist",
+                "reason": "If the Alchemist has the Miasma ability, they are safe from themselves."
+            }
+        ]
+    },
+    "baron",
+
+    {
+        "id": "auwre_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/CvGlUNj.png",
+            "https://i.imgur.com/UKPzv0Z.png"
+        ],
+        "firstNightReminder": "Do not inform the Demon or their Minions who each other are. ",
+        "otherNightReminder": "Wake the Au’Wre. They point to a number of players equal to the number of in-play Minions: indicate which of the people they chose are Minions. If all of them are, place the \"Found Minions\" reminder.",
+        "reminders": [
+            "Found Minions"
+        ],
+        "setup": true,
+        "name": "Au’Wre §",
+        "team": "demon",
+        "ability": "Each night*, guess your Minions: learn which are correct. If all are, good learns this, and must kill evil today or lose. [Evil don’t learn each other]",
+        "firstNight": 9.5,
+        "otherNight": 28.7,
+        "jinxes": [
+            {
+                "id": "ravenkeeper",
+                "reason": "If Au’Wre guesses the Ravenkeeper, they use their ability."
+            },
+            {
+                "id": "sage",
+                "reason": "If Au’Wre guesses the Sage, they use their ability."
+            },
+            {
+                "id": "farmer",
+                "reason": "If Au’Wre guesses the Farmer, they use their ability."
+            },
+            {
+                "id": "steeplejack_the_bootleggers_anthology",
+                "reason": "If Au’Wre guesses the Steeplejack, they use their ability."
+            },
+            {
+                "id": "prankster_the_bootleggers_anthology",
+                "reason": "The Au’Wre doesn’t learn which player a Pranked minion chose."
+            },
+            {
+                "id": "clairvoyant_the_bootleggers_anthology",
+                "reason": "If Au’Wre guesses the Clairvoyant, they learn this and may visit the Storyteller tomorrow."
+            },
+            {
+                "id": "localhero_the_bootleggers_anthology",
+                "reason": "If Au’Wre guesses the Local Hero, their known character dies."
+            },
+            {
+                "id": "king",
+                "reason": "Each time Au’Wre guesses a Minion for the first time, the King learns 1 alive character. If Au’Wre guesses the King, they lose their ability."
+            },
+            {
+                "id": "choirboy",
+                "reason": "If Au’Wre guesses the King and the Choirboy is alive, they use their ability."
+            },
+            {
+                "id": "magician",
+                "reason": "The first time Au’Wre guesses the Magician, they learn the Magician is a Minion."
+            },
+            {
+                "id": "poppygrower",
+                "reason": "Only 1 jinxed character can be in play. Evil starts knowing if Au’Wre is in play."
+            },
+            {
+                "id": "mayor",
+                "reason": "If Au’Wre correctly guesses the Minions, then nobody is executed & a Mayor is alive, the Mayor's team wins."
+            },
+            {
+                "id": "fencer_the_bootleggers_anthology",
+                "reason": "Au’Wre guesses on the first night, but its guesses go through 1 night later. If they guess correctly, the Duelist learns this, otherwise the Duelist learns nothing."
+            },
+            {
+                "id": "marionette",
+                "reason": "Au’Wre only learns the Marionette after the Marionette is guessed."
+            },
+            {
+                "id": "mastermind",
+                "reason": "If Au’Wre is executed and the Mastermind ability activates, it is announced Au’Wre guessed their Minions."
+            },
+            {
+                "id": "pithag",
+                "reason": "The Pit-Hag can not create an Au’Wre."
+            },
+            {
+                "id": "spy",
+                "reason": "If Au’Wre is in play, the Spy only sees half of the Grimoire."
+            },
+            {
+                "id": "widow",
+                "reason": "If Au’Wre is in play, the Widow only sees half of the Grimoire."
+            },
+            {
+                "id": "psychopath",
+                "reason": "The Psychopath learns when Au’Wre guesses them and can only kill after this. Once Au’Wre guesses their Minions, the Psychopath dies regardless of Roshambo result if executed."
+            },
+            {
+                "id": "vizier",
+                "reason": "The Vizier's existence is not announced until after they are guessed. They can not execute until they are revealed."
+            },
+            {
+                "id": "hatter",
+                "reason": "If the Hatter dies & Au’Wre chooses to become another Demon, Minions & Demons learn each other. The Demon can’t choose to become Au’Wre when the Hatter dies."
+            },
+            {
+                "id": "tactician_the_bootleggers_anthology",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "monk",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "innkeeper",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "warden_the_bootleggers_anthology",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "soldier",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "esper_the_bootleggers_anthology",
+                "reason": "Only 1 jinxed character can be in play."
+            }
+        ]
+    },
+    {
+        "id": "absolut",
+        "name": "Absolut ¬",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/absolut_scc_released.png",
+        "team": "demon",
+        "ability": "Townsfolk abilities yield false info except 1. Each evil may (once) publicly guess who: if right, or after day 5, evil wins.",
+        "reminders": ["Thought Criminal", "Spent", "Spent", "Spent", "Spent"],
+        "jinxes": [
+            {
+                "id": "miasma_the_bootleggers_anthology",
+                "reason": "If Absolut is in play, the Miasma reverses information instead of making it false."
+            },
+            {
+                "id": "widow",
+                "reason": "If Absolut is in play, all reminder tokens are removed when the Widow sees the Grimoire."
+            }
+        ],
+        "firstNight": 1,
+        "firstNightReminder": "Mark 1 Townsfolk as the *THOUGHT CRIMINAL*. :reminder: All other Townsfolk yield false info."
+    },
+    {
+        "id": "hysteria",
+        "name": "Hysteria ¬",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/hysteria_scc_released.png",
+        "team": "demon",
+        "ability": "On day 3, the living may duel (all learns this): both learn a question & whoever fails to answer it correctly 1st dies. After day 3, evil wins.",
+        "otherNight": 90,
+        "otherNightReminder": "If it is dawn on day 3, announce that *Hysteria has broken out!*"
+    }
+]

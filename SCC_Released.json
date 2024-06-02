@@ -61,14 +61,46 @@
         "ability": "Townsfolk abilities yield false info except 1. Each evil may (once) publicly guess who: if right, or after day 5, evil wins.",
         "reminders": ["Thought Criminal", "Spent", "Spent", "Spent", "Spent"],
         "jinxes": [
-            {
-                "id": "miasma_the_bootleggers_anthology",
-                "reason": "If Absolut is in play, the Miasma reverses information instead of making it false."
-            },
-            {
-                "id": "widow",
-                "reason": "If Absolut is in play, all reminder tokens are removed when the Widow sees the Grimoire."
-            }
+           {
+               "id": "miasma_the_bootleggers_anthology",
+               "reason": "If Absolut is in play, the Miasma reverses information instead of making it false."
+           },
+           {
+               "id": "vortox",
+               "reason": "If Absolut is in play, the Vortox reverses information instead of making it false."
+           },
+           {
+               "id": "soldier",
+               "reason": "Only 1 jinxed character can be in play."
+           },
+           {
+               "id": "innkeeper",
+               "reason": "Only 1 jinxed character can be in play."
+           },
+           {
+               "id": "fencer_the_bootleggers_anthology",
+               "reason": "Only 1 jinxed character can be in play."
+           },
+           {
+               "id": "steeplejack_the_bootleggers_anthology",
+               "reason": "Only 1 jinxed character can be in play."
+           },
+           {
+               "id": "tactician_the_bootleggers_anthology",
+               "reason": "If Absolut is in play, Each night*, the Tactician instead learns which of their choices would benefit evil the most by sharing their information."
+           },
+           {
+               "id": "spy",
+               "reason": "If Absolut is in play, the Spy does not see any reminder tokens in the Grimoire."
+           },
+           {
+               "id": "widow",
+               "reason": "If Absolut is in play, the Widow does not see any reminder tokens in the Grimoire."
+           },
+           {
+               "id": "esper_the_bootleggers_anthology",
+               "reason": "If Absolut is in play, the Esper does not see any reminder tokens in the Grimoire."
+           }
         ],
         "firstNight": 1,
         "firstNightReminder": "Mark 1 Townsfolk as the *THOUGHT CRIMINAL*. :reminder: All other Townsfolk yield false info."
@@ -76,9 +108,67 @@
 {
         "id": "hysteria",
         "name": "Hysteria",
-        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/hysteria_scc_released.png",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/hysteria_supers_hb.png",
         "team": "demon",
-        "ability": "On day 3, the living may duel (all learns this): both learn a question & whoever fails to answer it correctly 1st dies. After day 3, evil wins.",
+        "ability": "On day 3, the living may duel (all learns this): both learn a question & whoever fails to answer correctly 1st dies. After day 2, evil wins.",
         "otherNight": 90,
-        "otherNightReminder": "If it is dawn on day 3, announce that *Hysteria has broken out!*"
+        "otherNightReminder": "If it is dawn on day 3, announce that *Hysteria has broken out!*",
+        "jinxes": [
+            {
+                "id": "moonflower_hblreleased",
+                "reason": "If the Moonflower dies & the next player to die duelling against a good player is good, the Moonflower's team loses."
+            },
+            {
+                "id": "ravenkeeper",
+                "reason": "If the Ravenkeeper dies during a duel without answering, they may visit the Storyteller to use their ability."
+            },
+            {
+                "id": "farmer",
+                "reason": "If the Farmer dies during a duel without answering, an alive good player becomes a Farmer & is told this by the Storyteller."
+            },
+            {
+                "id": "sage",
+                "reason": "If the Sage dies during a duel without answering, they may visit the Storyteller to learn that the Demon is 1 of 2 players."
+            },
+            {
+                "id": "banshee",
+                "reason": "If the Banshee dies during a duel without answering, their ability activates immediately."
+            },
+            {
+                "id": "steeplejack_the_bootleggers_anthology",
+                "reason": "If the Steeplejack dies during a duel without answering, they may visit the Storyteller to use their ability."
+            },
+            {
+                "id": "lumberjack_temporary_homebrew",
+                "reason": "If a player the Lumberjack sees dies during a duel, the Lumberjack may visit the Storyteller to use their ability."
+            },
+            {
+                "id": "soldier",
+                "reason": "If the Soldier dies dueling the Hysteria, they don't. If they die otherwise, they do."
+            },
+            {
+                "id": "monk",
+                "reason": "If a player chosen by the Monk last night dies dueling the Hysteria, they don't."
+            },
+            {
+                "id": "innkeeper",
+                "reason": "If a player chosen by the Innkeeper last night dies dueling the Hysteria, they don't."
+            },
+            {
+                "id": "devilsadvocate",
+                "reason": "If a player chosen by the Devil's Advocate dies during a duel, they don't, but no longer survive execution."
+            },
+            {
+                "id": "fencer_the_bootleggers_anthology",
+                "reason": "The Fencer learns that Hysteria is in play 1 day earlier."
+            },
+            {
+                "id": "pacifist",
+                "reason": "Players who die by duels register as being executed to the Pacifist."
+            },
+            {
+                "id": "tactician_the_bootleggers_anthology",
+                "reason": "Each night*, the Tactician instead learns which of their choices would be better for evil to duel on the final day."
+            }
+        ]
 }]

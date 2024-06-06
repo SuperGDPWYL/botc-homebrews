@@ -5,6 +5,20 @@
         "almanac": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/almanac.html"
 },
 {
+        "id": "cryptographer",
+        "team": "townsfolk",
+        "name": "Cryptographer",
+        "ability": "Each day, guess what the setup modification is: if right, learn the Demon. [???]",
+        "setup": true,
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/cryptographer_scc_released.png",
+        "jinxes": [
+            {
+                "id": "philosopher",
+                "reason": "If the Cryptographer is not-in-play & the Philosopher chooses Cryptographer, they are drunk."
+            }
+        ]
+},
+{
         "id": "chemist",
         "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/chemist_scc_released.png",
         "name": "Chemist",
@@ -44,6 +58,32 @@
         "otherNight": 83.1
 },
 {
+        "id": "earthmover",
+        "team": "minion",
+        "name": "Earthmover",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/earthmover_scc_released.png",
+        "reminders": [
+            "Doomed",
+            "Doomed",
+            "Dead",
+            "Dead",
+            "No Ability"
+        ],
+        "otherNight": 30.1,
+        "otherNightReminder": "If there are players marked *DOOMED*: Those players *die* no matter what. :reminder: :reminder:",
+        "ability": "Once per game, before nominations, publicly choose 2 players: they die tonight (even if for some reason they couldn't)."
+},
+{
+        "id": "excelsus",
+        "name": "Excelsus",
+        "team": "demon",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/excelsus_scc_released.png",
+        "ability": "Each night*, choose any amount of characters: learn how many are in-play. If all are, all die.",
+        "reminders": ["Dead", "Dead", "Dead", "Dead", "Dead", "Dead"],
+        "otherNight": 38.3,
+        "otherNightReminder": "The Excelsus chooses any amount of characters. Show a finger signal of how many are in play. If all are, those characters *die*. :reminder:"
+}
+{
     "id": "veraxillus",
     "name": "Veraxillus",
     "team": "demon",
@@ -52,6 +92,18 @@
     "reminders": ["Dead"],
     "otherNight": 38.1,
     "otherNightReminder": "The Veraxillus chooses a player, who *dies*. The Veraxillus might have another ability on top of this; if so, run it at the appropriate time."
+},
+        {
+    "id": "muras",
+    "team": "demon",
+    "name": "Muras",
+    "ability": "Each night, choose 3 players: if any nominate tomorrow, they die that night. If none do, all die.",
+    "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/muras_scc_released.png",
+    "reminders": ["Dead","Dead","Dead","Bleeding","Bleeding","Bleeding","Nominated","Nominated","Nominated"],
+    "firstNight": 38.1,
+    "otherNight": 38.2,
+    "firstNightReminder": "The Muras chooses 3 players. :reminder: :reminder: :reminder:",
+    "otherNightReminder": "Players marked *NOMINATED* die. :reminder: If no-one is, players marked *BLEEDING* die. :reminder: The Muras chooses 3 players. :reminder:"
 },
 {
     "id": "fluxicon",
@@ -67,18 +119,6 @@
     ],
     "otherNight": 34.1,
     "otherNightReminder": "The Fluxicon signals a number up to the amount of evil players alive. That many players *die*. :reminder:"
-},
-{
-    "id": "muras",
-    "team": "demon",
-    "name": "Muras",
-    "ability": "Each night, choose 3 players: if any nominate tomorrow, they die that night. If none do, all die.",
-    "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/muras_scc_released.png",
-    "reminders": ["Dead","Dead","Dead","Bleeding","Bleeding","Bleeding","Nominated","Nominated","Nominated"],
-    "firstNight": 38.1,
-    "otherNight": 38.2,
-    "firstNightReminder": "The Muras chooses 3 players. :reminder: :reminder: :reminder:",
-    "otherNightReminder": "Players marked *NOMINATED* die. :reminder: If no-one is, players marked *BLEEDING* die. :reminder: The Muras chooses 3 players. :reminder:"
 },
 {
     "id": "cataclysm",

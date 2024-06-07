@@ -1,0 +1,355 @@
+[
+    {
+        "id": "_meta",
+        "name": "The Only Thing I Know For Real",
+        "author": "SuperGDPWYL, including characters by Elluna, Luis S & Temporary"
+    },
+    {
+        "id": "localhero_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/0yE2IjU.png",
+            "https://i.imgur.com/jOJKRL5.png"
+        ],
+        "firstNightReminder": "During the first night, wake the Local Hero and show them the character token marked with “Seen”. Send the Local Hero to sleep. ",
+        "otherNightReminder": "If the Local Hero dies at night due to an evil player’s ability, the character marked with \"Seen\" dies too.",
+        "reminders": [
+            "Seen",
+            "Dead"
+        ],
+        "name": "Local Hero",
+        "team": "townsfolk",
+        "ability": "You start knowing an in-play opposing character. If an evil ability kills you, that character dies too.",
+        "firstNight": 35.5,
+        "otherNight": 52.7,
+        "jinxes": [
+            {
+                "id": "leviathan",
+                "reason": "If Leviathan is in play and the Local Hero is executed, the character they know dies tonight."
+            },
+            {
+                "id": "riot",
+                "reason": "If Riot nominates and kills the Local Hero, an evil player also dies."
+            }
+        ]
+    },
+    {
+        "id": "bookie_hblreleased",
+        "team": "townsfolk",
+        "name": "Bookie",
+        "ability": "You start by choosing 2 alive players (not yourself): if the 1st dies before the 2nd, you learn an evil player & choose again.",
+        "image": "https://www.bloodstar.xyz/p/notnothingmuch/HBLReleased/bookie_hblreleased.png",
+        "reminders": [
+            "1st",
+            "2nd",
+            "No Ability"
+        ],
+        "firstNightReminder": "The Bookie points at 2 alive players :reminder: :reminder:",
+        "otherNightReminder": "If the *2ND* player died first, the Bookie loses their ability. :reminder: If the *1ST* player died first, point to an evil player and the Bookie points at 2 alive players. :reminder: :reminder:",
+        "firstNight": 57.1,
+        "otherNight": 75.1
+    },
+    "innkeeper",
+    {
+        "id": "courier_hblreleased",
+        "image": "https://www.bloodstar.xyz/p/notnothingmuch/HBLReleased/courier_hblreleased.png",
+        "otherNightReminder": "",
+        "name": "Courier",
+        "team": "townsfolk",
+        "ability": "Each day, you may visit the Storyteller to learn a task & its reward.",
+        "reminders": [
+            "Complete",
+            "1",
+            "2",
+            "3"
+        ],
+        "otherNight": 57.1
+    },
+    {
+        "id": "cryptographer",
+        "team": "townsfolk",
+        "name": "Cryptographer",
+        "ability": "Each day, guess what the setup modification is: if right, learn the Demon. [???]",
+        "setup": true,
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/cryptographer_scc_released.png",
+        "jinxes": [
+            {
+                "id": "philosopher",
+                "reason": "If the Cryptographer is not-in-play & the Philosopher chooses Cryptographer, they are drunk."
+            }
+        ]
+    },
+    "savant",
+    {
+        "id": "renegade_temporary_homebrew",
+        "image": [
+          "https://i.imgur.com/i1916Un.png",
+          "https://i.imgur.com/MQe3aas.png"
+        ],
+        "firstNightReminder": "Run the Renegade's ability as it is currently written, if applicable.",
+        "otherNightReminder": "Run the Renegade's ability as it is currently written, if applicable.",
+        "reminders": [
+          "???",
+          "???",
+          "???"
+        ],
+        "name": "Renegade",
+        "team": "townsfolk",
+        "ability": "Only you know your ability. Each day, visit the Storyteller to change 1 aspect of it: they then add another.",
+        "firstNight": 21.33,
+        "otherNight": 21.33,
+        "jinxes": [
+            {
+                "id": "hulijing_the_bootleggers_anthology",
+                "reason": "If the Huli Jing gains the Renegade ability after having previously gained it, they regain that variant of its ability."
+                
+            }
+        ]
+    },
+    {
+        "id": "warden_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/H8usoul.png",
+            "https://i.imgur.com/tushVwb.png"
+        ],
+        "otherNightReminder": "The Warden either shakes their head no or nods yes. If they use their ability, show them each Demon on the script, one after another: the Warden points to a player for each one. Mark each player \"Safe from Nth Demon\" as apropriate. Mark the Warden with \"No ability\". Put the Warden to sleep.",
+        "reminders": [
+            "No ability",
+            "Safe from 1st Demon",
+            "Safe from 2nd Demon",
+            "Safe from 3rd Demon",
+            "Safe from 4th Demon"
+        ],
+        "name": "Warden",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose 1 player for each on-script Demon: they are safe from that Demon.",
+        "otherNight": 16.5,
+        "jinxes": [
+            {
+                "id": "leviathan",
+                "reason": "If Leviathan nominates and executes the player the Warden chose, that player does not die."
+            },
+            {
+                "id": "riot",
+                "reason": "If Riot nominates the player the Warden chose, that player does not die."
+            }
+        ]
+    },
+    "philosopher",
+    {
+        "id": "insurrectionist",
+        "team": "townsfolk",
+        "name": "Insurrectionist",
+        "ability": "Once per game, choose a player: if good, they become & learn your character. If evil guesses you (once), your team loses.",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/insurrectionist_supers_hb.png",
+        "reminders": [
+            "Guess Used",
+            "No Ability"
+        ],
+        "firstNight": 34.1,
+        "otherNight": 21.2,
+        "firstNightReminder": "The Insurrectionist might choose a player. That player, if good, becomes an Insurrectionist & learns who recruited them. The recruiter loses their ability. :reminder:",
+        "otherNightReminder": "The Insurrectionist might choose a player. That player, if good, becomes an Insurrectionist & learns who recruited them. The recruiter loses their ability. :reminder:"
+    },
+    "pacifist",
+    {
+        "id": "seraph_hblreleased",
+        "image": "https://www.bloodstar.xyz/p/notnothingmuch/HBLReleased/seraph_hblreleased.png",
+        "otherNightReminder": "If the Seraph nominated & killed a good player by execution today, wake the executee & show the Seraph character token.",
+        "name": "Seraph",
+        "team": "townsfolk",
+        "ability": "Good players who you nominate & kill by execution learn you are in play.",
+        "reminders": [
+            "Redeemed"
+        ],
+        "otherNight": 76.1,
+        "jinxes": [
+            {
+                "id": "riot",
+                "reason": "Players who die to being nominated register as being executed to the Seraph."
+            }
+        ]
+    },
+    "banshee",
+
+    "damsel",
+    {
+        "id": "cardinal_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/VTkn7sV.png",
+            "https://i.imgur.com/geY6xID.png"
+        ],
+        "otherNightReminder": "If the Nominator reminder is placed, inform the Cardinal of their new alignment: the opposite of the person who nominated them.",
+        "name": "Cardinal",
+        "team": "outsider",
+        "ability": "If nominated, tonight (even if dead), you become the alignment opposite to whoever nominated you.",
+        "otherNight": 1.7
+    },
+    {
+        "id": "penitent_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/n9rldAa.png",
+            "https://i.imgur.com/BEYt56q.png"
+        ],
+        "otherNightReminder": "If the Pentient died today or tonight, wake the Demon. Show them the \"This character affected you\" token, and then the Penitent token. They shake their head or nod. If they nod, place the \"Doubled End\" reminder: they kill two players every night from now on.",
+        "reminders": [
+            "Judgement Tonight"
+        ],
+        "remindersGlobal": [
+            "Doubled End",
+            "Dead",
+            "Dead"
+        ],
+        "name": "Penitent",
+        "team": "outsider",
+        "ability": "If you died today or tonight, the Demon may change their ability to \"Each night*, choose 2 players: they die.\"",
+        "otherNight": 51.5,
+        "jinxes": [
+            {
+                "id": "lilmonsta",
+                "reason": "If the babysitter chooses to change their ability, Minions no longer wake to decide the babysitter."
+            },
+            {
+                "id": "legion",
+                "reason": "If the Penitent dies & Legion is in play, nothing happens."
+            }
+        ]
+    },
+    "hatter",
+
+    {
+        "id": "crawler_hblreleased",
+        "team": "minion",
+        "name": "Crawler",
+        "ability": "You know an alive player: if 1 is executed, they learn you're in play. If 2 are, your team wins.",
+        "image": "https://www.bloodstar.xyz/p/notnothingmuch/HBLReleased/crawler_hblreleased.png",
+        "reminders": [
+            "Known",
+            "Executed"
+        ],
+        "firstNightReminder": "The Crawler learns a player. :reminder:",
+        "otherNightReminder": "If the Crawler's target was executed, show them the Crawler's character token. If the Crawler's target has died, the Crawler learns another player. :reminder:",
+        "firstNight": 31.1,
+        "otherNight": 20.1,
+        "jinxes": [
+            {
+                "id": "plaguedoctor",
+                "reason": "If the Storyteller would gain the Crawler’s ability, a living Minion gains it in addition to their own & learns this."
+            },
+            {
+                "id": "riot",
+                "reason": "Players who die to being nominated by an opposing player to the Crawler register as being executed to the Crawler."
+            }
+        ]
+    },
+    {
+        "id": "hulijing_the_bootleggers_anthology",
+        "image": [
+            "https://i.imgur.com/oiJkiCn.png",
+            "https://i.imgur.com/17nuUbd.png"
+        ],
+        "firstNightReminder": "Show the Huli Jing 5 out-of-play characters: note which ones using a notes app. Then, the Huli Jing chooses one of them: mark that as their \"Current Form\". Until dusk, run the Huli Jing as though they were that character, and you may have them register as though they were that character & alignment.",
+        "otherNightReminder": "The Huli Jing chooses one of the 5 characters they were shown at the start of the game: mark that as their \"Current Form\". Until dusk, run the Huli Jing as though they were that character, and you may have them register as though they were that character & alignment.",
+        "reminders": [
+            "Current Form",
+            "Seen"
+        ],
+        "name": "Huli Jing",
+        "team": "minion",
+        "ability": "You start knowing 5 out-of-play characters. Each night, choose 1 of them: until dusk, gain its’ ability & you might register as it would.",
+        "firstNight": 26.5,
+        "otherNight": 6.5,
+        "jinxes": [
+            {
+                "id": "heretic",
+                "reason": "The Huli Jing can not gain the Heretic ability."
+            },
+            {
+                "id": "politician",
+                "reason": "The Huli Jing can not gain the Politician ability."
+            },
+            {
+                "id": "cultleader",
+                "reason": "If the Huli Jing gains the Cult Leader ability, they can not turn Good."
+            },
+            {
+                "id": "goon",
+                "reason": "If the Huli Jing gains the Goon ability, they can not turn Good."
+            },
+            {
+                "id": "deserter_the_bootleggers_anthology",
+                "reason": "If the Huli Jing gains the Deserter ability, they can not turn Good."
+            },
+            {
+                "id": "cardinal_the_bootleggers_anthology",
+                "reason": "If the Huli Jing gains the Cardinal ability, they can not turn Good."
+            },
+            {
+                "id": "insurrectionist",
+                "reason": "If the Huli Jing has (or has had) the Insurrectionist ability, evil may no longer guess the Insurrectionist."
+            }
+        ]
+    },
+    "harpy",
+    {
+        "id": "earthmover",
+        "team": "minion",
+        "name": "Earthmover",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/earthmover_supers_hb.png",
+        "reminders": [
+            "Doomed",
+            "Doomed",
+            "Dead",
+            "Dead",
+            "No Ability"
+        ],
+        "otherNight": 30.1,
+        "otherNightReminder": "If there are players marked *DOOMED*: Those players *die* no matter what. :reminder: :reminder:",
+        "ability": "Once per game, before nominations, publicly choose 2 players: they die tonight (even if for some reason they couldn't)."
+    },
+    "goblin",
+
+    {
+        "id": "fluxicon",
+        "team": "demon",
+        "name": "Fluxicon",
+        "ability": "Each night*, choose up to the number of alive evils: that many players die tonight.",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/fluxicon_supers_hb.png",
+        "reminders": [
+            "Dead",
+            "Dead",
+            "Dead",
+            "Dead"
+        ],
+        "otherNight": 34.1,
+        "otherNightReminder": "The Fluxicon signals a number up to the amount of evil players alive. That many players *die*. :reminder:"
+    },
+    {
+        "id": "muras",
+        "team": "demon",
+        "name": "Muras",
+        "ability": "Each night, choose 3 players: if any nominate tomorrow, they die that night. If none do, all die.",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/muras_supers_hb.png",
+        "reminders": ["Dead","Dead","Dead","Bleeding","Bleeding","Bleeding","Nominated","Nominated","Nominated"],
+        "firstNight": 38.1,
+        "otherNight": 38.1,
+        "firstNightReminder": "The Muras chooses 3 players. :reminder: :reminder: :reminder:",
+        "otherNightReminder": "Players marked *NOMINATED* die. :reminder: If no-one is, players marked *BLEEDING* die. :reminder: The Muras chooses 3 players. :reminder:"
+    },
+    {
+        "id": "cataclysm",
+        "team": "demon",
+        "name": "Cataclysm",
+        "ability": "Each night*, choose a player: they die. For each failed nomination by good today, or if none nominated, choose 1 more.",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/cataclysm_supers_hb.png",
+        "reminders": [
+            "Dead",
+            "Dead",
+            "Dead",
+            "Dead",
+            "Dead",
+            "No Good Nominated"
+        ],
+        "otherNight": 34.2,
+        "otherNightReminder": "The Cataclysm chooses 1 player, plus another for each failed nomination by good today. If the Cataclysm is marked *NO GOOD NOMINATED*, they choose 2. They *die*. :reminder:"
+    }
+]

@@ -74,16 +74,6 @@
         "ability": "Once per game, before nominations, publicly choose 2 players: they die tonight (even if for some reason they couldn't)."
 },
 {
-        "id": "excelsus",
-        "name": "Excelsus",
-        "team": "demon",
-        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/excelsus_scc_released.png",
-        "ability": "Each night*, choose any amount of characters: learn how many are in-play. If all are, all die.",
-        "reminders": ["Dead", "Dead", "Dead", "Dead", "Dead", "Dead"],
-        "otherNight": 38.3,
-        "otherNightReminder": "The Excelsus chooses any amount of characters. Show a finger signal of how many are in play. If all are, those characters *die*. :reminder:"
-}
-{
     "id": "veraxillus",
     "name": "Veraxillus",
     "team": "demon",
@@ -255,4 +245,235 @@
                 "reason": "Each night*, the Tactician instead learns which of their choices would be better for evil to duel on the final day."
             }
         ]
-}]
+},
+{
+        "id": "biologist",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/biologist_uk.png",
+        "name": "Biologist",
+        "team": "townsfolk",
+        "ability": "Each night, choose 2 players: learn 1 of their characters. If either are drunk or poisoned, learn false info.",
+        "firstNight": 45.2,
+        "firstNightReminder": "The Biologist chooses 2 players.",
+        "otherNight": 62.2,
+        "otherNightReminder": "The Biologist chooses 2 players."
+},
+{
+        "id": "cavalry",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/cavalry_supers_hb.png",
+        "name": "Cavalry",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player: if Cavalry dies tonight, they are drunk until dusk tomorrow, even if you dies. [+0 to +2 Cavalry]",
+        "setup": true,
+        "otherNight": 11.1,
+        "reminders": ["Drunk","Drunk","Drunk"],
+        "otherNightReminder": "Cavalry all choose a player. If a Cavalry dies tonight, the players chosen by living Cavalry are drunk for the next night, day and following night. :reminder:",
+        "special": [
+            {
+                "type": "selection",
+                "name": "bag-duplicate"
+            }
+        ]
+},
+{
+        "id": "fact_checker",
+        "name": "Fact Checker",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/factchecker_supers_hb.png",
+        "team": "townsfolk",
+        "ability": "Each day, players may make 1 public statement: each night*, learn how many were true. If you would learn 0, you're drunk tonight.",
+        "reminders": ["Correct", "Correct", "Correct", "Correct"],
+        "otherNight": 62.7,
+        "otherNightReminder": "Show a finger signal equalling the number of *CORRECT* reminder tokens on the Grimoire, or any number if there are none. Remove all *CORRECT* reminder tokens."
+},
+{
+        "id": "gunsmith",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/gunsmith_supers_hb.png",
+        "name": "Gunsmith",
+        "team": "townsfolk",
+        "ability": "For every 2 players you execute, choose a player that night: if both executees were good, they die.",
+        "reminders": [
+            "Executed",
+            "Executed",
+            "Dead"
+        ],
+        "otherNight": 29.2,
+        "otherNightReminder": "If there are 2 *EXECUTED* reminders: wake the Gunsmith. They choose a player. If both players marked *EXECUTED* are good, that player *dies*. :reminder: Remove the *EXECUTED* reminders."
+},
+{
+        "id": "bar_fighter",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/barfighter_supers_hb.png",
+        "name": "Bar Fighter",
+        "team": "outsider",
+        "ability": "Each night*, if you would be drunk or poisoned, you aren't & a living Townsfolk neighbour dies.",
+        "otherNight": 49.1,
+        "otherNightReminder": "If the Bar Fighter is drunk or poisoned: they become sober & healthy, and a living Townsfolk neighbour *dies*. :reminder:",
+        "reminders": ["Dead"]
+},
+{
+        "id": "mindwarp",
+        "name": "Mindwarp",
+        "team": "outsider",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/mindwarp_supers_hb.png",
+        "ability": "Each night, learn a statement: if you're not mad it's false tomorrow, the Demon learns it & may choose if it is true or false.",
+        "firstNightReminder": "Show the Mindwarp a statement.",
+        "firstNight": 6.6,
+        "otherNightReminder": "If the Mindwarp was not sufficiently mad: Wake the Demon, show them *THIS CHARACTER SELECTED YOU* and the Mindwarp token, then the statement. The Demon gives a thumb signal or shakes their head. Modify the game corresponding to the given signal. Show the Mindwarp a statement.",
+        "otherNight": 6.6
+},
+{
+        "id": "chessmaster",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/chessmaster_supers_hb.png",
+        "firstNightReminder":"The Manipulator chooses a player: they are poisoned. The Manipulator has their ability.",
+        "otherNightReminder":"If the poisoned player died today or tonight: The Manipulator chooses a player: they are poisoned. The Manipulator has their ability.",
+        "reminders":["Poisoned"],
+        "name":"Chessmaster",
+        "team":"minion",
+        "ability":"You start by choosing a player to poison: you know & have their ability. If they die, choose again.",
+        "firstNight":21.1,
+        "otherNight":8.1,
+        "jinxes": [
+            {
+                "id": "damsel",
+                "reason":"If the Chessmaster dies while poisoning the Damsel, the Damsel remains poisoned."
+            }
+        ]
+},
+{
+        "id": "signal_jammer",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/signaljammer_supers_hb.png",
+        "name": "Signal Jammer",
+        "team": "minion",
+        "ability": "Nominators are secret. Executees may guess their nominator: if right, they're executed instead.",
+        "reminders": ["Nominator"]
+},
+
+{
+        "id": "excelsus",
+        "name": "Excelsus",
+        "team": "demon",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/SCC_Released/excelsus_scc_released.png",
+        "ability": "Each night*, choose any amount of characters: learn how many are in-play. If all are, all die.",
+        "reminders": ["Dead", "Dead", "Dead", "Dead", "Dead", "Dead"],
+        "otherNight": 38.3,
+        "otherNightReminder": "The Excelsus chooses any amount of characters. Show a finger signal of how many are in play. If all are, those characters *die*. :reminder:"
+},
+{
+        "id": "vitoo",
+        "name": "Vitoo",
+        "team": "demon",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/vitoo_supers_hb.png",
+        "ability": "Each night*, choose a player: they die. If you nominate a Minion & they live, swap characters tonight.",
+        "reminders": ["Dead", "Swaps Tonight"],
+        "otherNight": 38.4,
+        "otherNightReminder": "If a Minion is marked *SWAPS TONIGHT* and is alive: they and the Vitoo swap characters. The Vitoo chooses a player. :reminder:"
+},
+{
+        "id": "chronomancer",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/chronomancer_supers_hb.png",
+        "name": "Chronomancer",
+        "team": "minion",
+        "ability": "The 1st time the Demon dies, they live but register as dead (they wake every other night), but all learn this when you die.",
+        "reminders": ["Turned Back Time", "Woke Last Night"]
+},
+{
+        "id": "hypnotist",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/hypnotist_supers_hb.png",
+        "firstNightReminder": "Wake the Hypnotist. Show them the Grimoire for as long as they need. They point at a player & character. :reminder: Put them to sleep, wake that player and make them think something about that character. Then, wake the Hypnotist and tell them what they were told (if applicable).",
+        "otherNightReminder": "Wake the Hypnotist. Show them the Grimoire for as long as they need. They point at a player & character. :reminder: Put them to sleep, wake that player and make them think something about that character. Then, wake the Hypnotist and tell them what they were told (if applicable).",
+        "firstNight": 25.1,
+        "otherNight": 20.1,
+        "name": "Hypnotist",
+        "ability": "Each night, see the Grimoire then choose a player & character: they think something about that character (you know what).",
+        "team": "minion",
+        "reminders": [
+            "Hypnotised"
+        ],
+        "special": [
+            {
+                "type": "signal",
+                "name": "grimoire",
+                "time": "night"
+            }
+        ]
+},
+{
+        "id": "quaesitor",
+        "name": "Quaesitor",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/quaesitor_supers_hb.png",
+        "team": "demon",
+        "ability": "You start knowing 5 characters: if none live, evil wins at dusk (all learn this). Each night*, choose a player: they die.",
+        "firstNight": 23.1,
+        "otherNight": 44.3,
+        "firstNightReminder": "The Quaesitor learns 5 characters. Mark the in-play ones as *MARK*s. :reminder:",
+        "otherNightReminder": "The Quaesitor chooses a player: they die. :reminder: If no players marked *MARK* are alive, mark the Quaesitor with *MIDNIGHT*. :reminder: Tomorrow, all players learn this & will have 1 day to execute the Quaesitor.",
+        "reminders": [
+            "Dead",
+            "Mark",
+            "Mark",
+            "Mark",
+            "Mark",
+            "Mark",
+            "Midnight"
+        ]
+},
+{
+        "id": "doomsday_clock",
+        "name": "Doomsday Clock",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/doomsdayclock_uk.png",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If no Minions live, evil wins at dusk (all learn this). [+1 good Minion]",
+        "setup": true,
+        "otherNight": 44.1,
+        "otherNightReminder": "The Doomsday Clock chooses a player: they die. :reminder: If no Minions live, mark the Doomsday Clock with *Midnight*. :reminder: Tomorrow, all players learn this & will have 1 day to execute the Doomsday Clock.",
+        "reminders": ["Dead", "Midnight"],
+        "jinxes": [
+            {
+                "id": "damsel",
+                "reason": "If a good Minion makes an incorrect Damsel guess, it won't count."
+            },
+            {
+                "id": "hypnotist",
+                "reason": "A good Hypnotist does not see the Grimoire."
+            }
+        ]
+},
+{
+        "id": "bioweapon",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/uk/bioweapon_uk.png",
+        "name": "Bio-Weapon",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Evil & poisoned players poison their good nominees. If all alive good are poisoned, evil wins at dusk (all learn this).",
+        "otherNight": 44.2,
+        "otherNightReminder": "The Bio-Weapon chooses a player: they die. :reminder: If all alive players except the Bio-Weapon are poisoned, mark the Bio-Weapon with *Midnight*. :reminder: Tomorrow, all players learn this & will have 1 day to execute the Bio-Weapon.",
+        "reminders": ["Dead", "Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned","Poisoned", "Midnight"]
+},
+{
+        "id": "cessation",
+        "name": "Cessation",
+        "team": "demon",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/cessation_supers_hb.png",
+        "ability": "After day 12, evil wins. For each nomination, the end comes 1 day sooner; for each Minion who dies by execution, it comes 2 later.",
+        "reminders": [
+            "Beat",
+            "Once",
+            "Twice"
+        ],
+        "firstNight": 1.6,
+        "firstNightReminder": "Mark Cessation with *ONCE* (12+ players) or *TWICE* (<11 players). :reminder: :reminder: Then, count <no. of players> steps anti-clockwise from Cessation and mark that player with *BEAT*. :reminder:",
+        "otherNight": 0.1,
+        "otherNightReminder": "Move *BEAT* 1 step clockwise."
+}
+{
+        "id": "infernoplex",
+        "name": "Infernoplex",
+        "team": "demon",
+        "image": "https://www.bloodstar.xyz/p/SuperGDPWYL/Supers_HB/infernoplex_supers_hb.png",
+        "ability": "Each night, all players learn a question & must answer it correctly tomorrow or evil wins at dusk. After day 5, evil wins.",
+        "reminders": [
+            "Staved Off"
+        ],
+        "firstNight": 33.1,
+        "firstNightReminder": "Mark Cessation with *ONCE* (12+ players) or *TWICE* (<11 players). :reminder: :reminder: Then, count <no. of players> steps anti-clockwise from Cessation and mark that player with *BEAT*. :reminder:",
+        "otherNight": 22.1,
+        "otherNightReminder": "Move *BEAT* 1 step clockwise."
+}
+]

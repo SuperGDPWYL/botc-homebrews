@@ -461,7 +461,7 @@
         "firstNightReminder": "Mark Cessation with *ONCE* (12+ players) or *TWICE* (<11 players). :reminder: :reminder: Then, count <no. of players> steps anti-clockwise from Cessation and mark that player with *BEAT*. :reminder:",
         "otherNight": 0.1,
         "otherNightReminder": "Move *BEAT* 1 step clockwise."
-}
+},
 {
         "id": "infernoplex",
         "name": "Infernoplex",
